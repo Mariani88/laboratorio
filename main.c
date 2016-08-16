@@ -88,7 +88,7 @@
     T1CONbits.T1OSCEN=1;
     Write_RTC();
     lcd_init();
-    lcd_comand(0b00001100);     //Display=on / Cursor=off / Blink=off
+    lcd_comand(0b00001111);     //Display=on / Cursor=off / Blink=off
     LED_2_Off;
     LED_3_Off;
     }
@@ -101,14 +101,37 @@ Funcion principal del programa
 int main(void)
 {
 Setup();
+int8 x = 9;
+int8 y = 1;
+
 while(1)
     {
     Read_RTC();
     caratula();
-
+    lcd_setcursor_vb(1,1);
+    lcd_gotoxy(x,y);
     if(switch1 == 0)
     {
-    LED_2_Toggle;
+        x++;
+        lcd_gotoxy(x,y); 
+        __delay_ms(50);
+        
+        if(   (x==11 && y ==1)
+           || (x==14 && y ==1)
+           || (x==3  && y==2)
+           || (x==6  && y==2)    ){
+            lcd_setcursor_vb(0,0);
+            x++;  
+        }
+        
+        if (x == 17){
+            x = 1;
+            y = 2;
+        }
+        
+        if(y == 2 && x == 9){
+            y = 1;
+        }
     }
     else LED_2_Off;
 

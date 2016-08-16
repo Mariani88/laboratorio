@@ -168,7 +168,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 "6401
 [v _LATBbits `VS445 ~T0 @X0 0 e@3978 ]
 [p mainexit ]
-"5275
+"107 C:/Archivos de programa/Unimic/unmc_01/headers\unmc_lcd_216.h
+[v _lcd_setcursor_vb `(v ~T0 @X0 0 ef2`uc`uc ]
+"5275 C:\Program Files\Microchip\xc8\v1.34\include\pic18f26j50.h
 [s S395 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S395 . RA0 RA1 RA2 RA3 . RA5 RA6 RA7 ]
 "5285
@@ -8310,9 +8312,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 90: lcd_init();
 "90
 [e ( _lcd_init ..  ]
-[; ;main.c: 91: lcd_comand(0b00001100);
+[; ;main.c: 91: lcd_comand(0b00001111);
 "91
-[e ( _lcd_comand (1 -> -> 12 `i `uc ]
+[e ( _lcd_comand (1 -> -> 15 `i `uc ]
 [; ;main.c: 92: LATBbits.LATB1 = 0;;
 "92
 [e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
@@ -8334,70 +8336,132 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 103: Setup();
 "103
 [e ( _Setup ..  ]
-[; ;main.c: 104: while(1)
 "104
-[e :U 1046 ]
-[; ;main.c: 105: {
+[v _x `uc ~T0 @X0 1 a ]
+[; ;main.c: 104: int8 x = 9;
+[e = _x -> -> 9 `i `uc ]
 "105
-{
-[; ;main.c: 106: Read_RTC();
-"106
-[e ( _Read_RTC ..  ]
-[; ;main.c: 107: caratula();
+[v _y `uc ~T0 @X0 1 a ]
+[; ;main.c: 105: int8 y = 1;
+[e = _y -> -> 1 `i `uc ]
+[; ;main.c: 107: while(1)
 "107
-[e ( _caratula ..  ]
-[; ;main.c: 109: if(PORTAbits.RA1 == 0)
+[e :U 1046 ]
+[; ;main.c: 108: {
+"108
+{
+[; ;main.c: 109: Read_RTC();
 "109
-[e $ ! == -> . . _PORTAbits 0 1 `i -> 0 `i 1048  ]
-[; ;main.c: 110: {
+[e ( _Read_RTC ..  ]
+[; ;main.c: 110: caratula();
 "110
-{
-[; ;main.c: 111: LATBbits.LATB1 = !LATBbits.LATB1;;
+[e ( _caratula ..  ]
+[; ;main.c: 111: lcd_setcursor_vb(1,1);
 "111
-[e = . . _LATBbits 0 1 -> -> ! != -> . . _LATBbits 0 1 `i -> -> -> 0 `i `Vuc `i `i `uc ]
+[e ( _lcd_setcursor_vb (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;main.c: 112: lcd_gotoxy(x,y);
 "112
-}
-[; ;main.c: 112: }
-[e $U 1049  ]
+[e ( _lcd_gotoxy (2 , _x _y ]
+[; ;main.c: 113: if(PORTAbits.RA1 == 0)
 "113
-[e :U 1048 ]
-[; ;main.c: 113: else LATBbits.LATB1 = 0;;
-[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
-[e :U 1049 ]
-[; ;main.c: 115: if(PORTAbits.RA0 == 0)
-"115
-[e $ ! == -> . . _PORTAbits 0 0 `i -> 0 `i 1050  ]
-[; ;main.c: 116: {
-"116
+[e $ ! == -> . . _PORTAbits 0 1 `i -> 0 `i 1048  ]
+[; ;main.c: 114: {
+"114
 {
-[; ;main.c: 117: LATBbits.LATB0 = 1;;
+[; ;main.c: 115: x++;
+"115
+[e ++ _x -> -> 1 `i `uc ]
+[; ;main.c: 116: lcd_gotoxy(x,y);
+"116
+[e ( _lcd_gotoxy (2 , _x _y ]
+[; ;main.c: 117: _delay((unsigned long)((50)*(8000000/4000.0)));
 "117
-[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
-"118
-}
-[; ;main.c: 118: }
-[e $U 1051  ]
-"119
-[e :U 1050 ]
-[; ;main.c: 119: else LATBbits.LATB0 = 0;;
-[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
-[e :U 1051 ]
-[; ;main.c: 121: _delay((unsigned long)((98)*(8000000/4000.0)));
-"121
-[e ( __delay (1 -> * -> -> 98 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[; ;main.c: 119: if( (x==11 && y ==1)
+[; ;main.c: 120: || (x==14 && y ==1)
+[; ;main.c: 121: || (x==3 && y==2)
+[; ;main.c: 122: || (x==6 && y==2) ){
+"122
+[e $ ! || || || && == -> _x `i -> 11 `i == -> _y `i -> 1 `i && == -> _x `i -> 14 `i == -> _y `i -> 1 `i && == -> _x `i -> 3 `i == -> _y `i -> 2 `i && == -> _x `i -> 6 `i == -> _y `i -> 2 `i 1049  ]
+{
+[; ;main.c: 123: lcd_setcursor_vb(0,0);
 "123
+[e ( _lcd_setcursor_vb (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+[; ;main.c: 124: x++;
+"124
+[e ++ _x -> -> 1 `i `uc ]
+"125
+}
+[e :U 1049 ]
+[; ;main.c: 125: }
+[; ;main.c: 127: if (x == 17){
+"127
+[e $ ! == -> _x `i -> 17 `i 1050  ]
+{
+[; ;main.c: 128: x = 1;
+"128
+[e = _x -> -> 1 `i `uc ]
+[; ;main.c: 129: y = 2;
+"129
+[e = _y -> -> 2 `i `uc ]
+"130
+}
+[e :U 1050 ]
+[; ;main.c: 130: }
+[; ;main.c: 132: if(y == 2 && x == 9){
+"132
+[e $ ! && == -> _y `i -> 2 `i == -> _x `i -> 9 `i 1051  ]
+{
+[; ;main.c: 133: y = 1;
+"133
+[e = _y -> -> 1 `i `uc ]
+"134
+}
+[e :U 1051 ]
+"135
+}
+[; ;main.c: 134: }
+[; ;main.c: 135: }
+[e $U 1052  ]
+"136
+[e :U 1048 ]
+[; ;main.c: 136: else LATBbits.LATB1 = 0;;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+[e :U 1052 ]
+[; ;main.c: 138: if(PORTAbits.RA0 == 0)
+"138
+[e $ ! == -> . . _PORTAbits 0 0 `i -> 0 `i 1053  ]
+[; ;main.c: 139: {
+"139
+{
+[; ;main.c: 140: LATBbits.LATB0 = 1;;
+"140
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+"141
+}
+[; ;main.c: 141: }
+[e $U 1054  ]
+"142
+[e :U 1053 ]
+[; ;main.c: 142: else LATBbits.LATB0 = 0;;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+[e :U 1054 ]
+[; ;main.c: 144: _delay((unsigned long)((98)*(8000000/4000.0)));
+"144
+[e ( __delay (1 -> * -> -> 98 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"146
 }
 [e :U 1045 ]
-"104
+"107
 [e $U 1046  ]
 [e :U 1047 ]
-[; ;main.c: 123: }
-[; ;main.c: 124: return 0;
-"124
+[; ;main.c: 146: }
+[; ;main.c: 147: return 0;
+"147
 [e ) -> 0 `i ]
 [e $UE 1044  ]
-[; ;main.c: 125: }
-"125
+[; ;main.c: 148: }
+"148
 [e :UE 1044 ]
 }
 [p f _sprintf 8422404 ]
