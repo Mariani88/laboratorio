@@ -44,7 +44,7 @@
         sprintf(buffer2,"%02u:%02u:%02u",hora,minuto,segundo);
         lcd_gotoxy(1,2);
         lcd_putrs(buffer2);
-     b=b++;
+        b=b++;
         if(b<7)
            {
             lcd_gotoxy(1,1);
@@ -133,25 +133,43 @@ while(1)
             y = 1;
         }
     }
-    else LED_2_Off;
 
     if(switch2 == 0)
     {
-        if (x==10){
-            dia++;
+        switch ( x ) {
+        case 10:    
+          dia++;
             if(dia > 31){
                 dia = 1;
             }
-            Write_RTC();
-            __delay_ms(50);
+          break;
+        case 13:
+          mes++;
+            if(mes > 12){
+                mes = 1;
+            }
+          break;
+        case 16:
+          anio++;
+          break;
+        case 2:    
+          hora++;
+            if(hora > 23){
+                hora = 0;
+            }
+          break;
+        case 5:
+          minuto++;
+            if(minuto > 59){
+                minuto = 0;
+            }
+          break;
+        default:
+          break;
         }
-        
-        
-        
-        
+        Write_RTC();
+            __delay_ms(50);
     }
-    else LED_3_Off;
-   
     __delay_ms(98);             // 98ms retardo maximo para esta funcion
 
     }
