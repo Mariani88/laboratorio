@@ -8434,34 +8434,59 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 139: {
 "139
 {
-[; ;main.c: 140: LATBbits.LATB0 = 1;;
+[; ;main.c: 140: if (x==10){
 "140
-[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+[e $ ! == -> _x `i -> 10 `i 1054  ]
+{
+[; ;main.c: 141: dia++;
 "141
-}
-[; ;main.c: 141: }
-[e $U 1054  ]
+[e ++ _dia -> 1 `i ]
+[; ;main.c: 142: if(dia > 31){
 "142
-[e :U 1053 ]
-[; ;main.c: 142: else LATBbits.LATB0 = 0;;
-[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
-[e :U 1054 ]
-[; ;main.c: 144: _delay((unsigned long)((98)*(8000000/4000.0)));
+[e $ ! > _dia -> 31 `i 1055  ]
+{
+[; ;main.c: 143: dia = 1;
+"143
+[e = _dia -> 1 `i ]
 "144
-[e ( __delay (1 -> * -> -> 98 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+}
+[e :U 1055 ]
+[; ;main.c: 144: }
+[; ;main.c: 145: Write_RTC();
+"145
+[e ( _Write_RTC ..  ]
+[; ;main.c: 146: _delay((unsigned long)((50)*(8000000/4000.0)));
 "146
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"147
+}
+[e :U 1054 ]
+"152
+}
+[; ;main.c: 147: }
+[; ;main.c: 152: }
+[e $U 1056  ]
+"153
+[e :U 1053 ]
+[; ;main.c: 153: else LATBbits.LATB0 = 0;;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+[e :U 1056 ]
+[; ;main.c: 155: _delay((unsigned long)((98)*(8000000/4000.0)));
+"155
+[e ( __delay (1 -> * -> -> 98 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"157
 }
 [e :U 1045 ]
 "107
 [e $U 1046  ]
 [e :U 1047 ]
-[; ;main.c: 146: }
-[; ;main.c: 147: return 0;
-"147
+[; ;main.c: 157: }
+[; ;main.c: 158: return 0;
+"158
 [e ) -> 0 `i ]
 [e $UE 1044  ]
-[; ;main.c: 148: }
-"148
+[; ;main.c: 159: }
+"159
 [e :UE 1044 ]
 }
 [p f _sprintf 8422404 ]

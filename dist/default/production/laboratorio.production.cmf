@@ -12,42 +12,42 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/default/production\laboratorio.production.obj
-cinit CODE 0 1C12 1C12 44 1
-text0 CODE 0 1644 1644 DE 1
-text1 CODE 0 1CF6 1CF6 14 1
-text2 CODE 0 153A 153A 10A 1
+cinit CODE 0 1C48 1C48 44 1
+text0 CODE 0 142E 142E 114 1
+text1 CODE 0 1D2C 1D2C 14 1
+text2 CODE 0 164E 164E 10A 1
 text3 CODE 0 F3C F3C 264 1
-text4 CODE 0 1CD4 1CD4 22 1
-text5 CODE 0 1C88 1C88 28 1
-text6 CODE 0 1B32 1B32 4C 1
-text7 CODE 0 1A82 1A82 5C 1
-text8 CODE 0 1ADE 1ADE 54 1
-text9 CODE 0 1B7E 1B7E 4C 1
+text4 CODE 0 1D0A 1D0A 22 1
+text5 CODE 0 1CBE 1CBE 28 1
+text6 CODE 0 1B68 1B68 4C 1
+text7 CODE 0 1AB8 1AB8 5C 1
+text8 CODE 0 1B14 1B14 54 1
+text9 CODE 0 1BB4 1BB4 4C 1
 nvCOMRAM COMRAM 1 41 41 D 1
-text10 CODE 0 1CB0 1CB0 24 1
-text11 CODE 0 1BCA 1BCA 48 1
-text12 CODE 0 191E 191E 80 1
-text13 CODE 0 1D0A 1D0A 12 1
-text14 CODE 0 1D40 1D40 E 1
-text15 CODE 0 1C56 1C56 32 1
-text16 CODE 0 199E 199E 76 1
-text17 CODE 0 1D1C 1D1C 12 1
+text10 CODE 0 1CE6 1CE6 24 1
+text11 CODE 0 1C00 1C00 48 1
+text12 CODE 0 1954 1954 80 1
+text13 CODE 0 1D40 1D40 12 1
+text14 CODE 0 1D76 1D76 E 1
+text15 CODE 0 1C8C 1C8C 32 1
+text16 CODE 0 19D4 19D4 76 1
+text17 CODE 0 1D52 1D52 12 1
 text18 CODE 0 11A0 11A0 148 1
-text19 CODE 0 17FA 17FA 96 1
-text20 CODE 0 142E 142E 10C 1
+text19 CODE 0 1830 1830 96 1
+text20 CODE 0 1542 1542 10C 1
 text21 CODE 0 12E8 12E8 146 1
-text22 CODE 0 1D2E 1D2E 12 1
-text23 CODE 0 1722 1722 D8 1
-text24 CODE 0 1A14 1A14 6E 1
-text25 CODE 0 1890 1890 8E 1
-idataCOMRAM CODE 0 1D4E 1D4E C 1
+text22 CODE 0 1D64 1D64 12 1
+text23 CODE 0 1758 1758 D8 1
+text24 CODE 0 1A4A 1A4A 6E 1
+text25 CODE 0 18C6 18C6 8E 1
+idataCOMRAM CODE 0 1D84 1D84 C 1
 cstackCOMRAM COMRAM 1 1 1 26 1
 bitbssCOMRAM COMRAM 1 2D0 5A 1 1
 bssBANK0 BANK0 1 60 60 2C 1
 smallconst SMALLCONST 0 F00 F00 3C 1
 dataCOMRAM COMRAM 1 4E 4E C 1
 bssCOMRAM COMRAM 1 27 27 1A 1
-$C:\Users\Matias\AppData\Local\Temp\s320.obj
+$C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 end_init CODE 0 0 0 4 1
 config CONFIG 0 FFF8 FFF8 8 1
 # %UNUSED Section
@@ -69,11 +69,11 @@ BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
 CONST 4-EFF 1
-CONST 1D5A-FFF7 1
+CONST 1D90-FFF7 1
 STACK 8C-EBF 1
-SMALLCONST 1D5A-FFF7 1
+SMALLCONST 1D90-FFF7 1
 CODE 4-EFF 1
-CODE 1D5A-FFF7 1
+CODE 1D90-FFF7 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
@@ -82,7 +82,7 @@ BANK14 E00-EBF 1
 BIGRAM 5B-5F 1
 BIGRAM 8C-EBF 1
 COMRAM 5B-5F 1
-MEDIUMCONST 1D5A-FFF7 1
+MEDIUMCONST 1D90-FFF7 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -216,372 +216,377 @@ FF4 text3 CODE >602:C:\Program Files\Microchip\xc8\v1.34\sources\common\doprnt.c
 1422 text21 CODE >110:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteDate.c
 1428 text21 CODE >113:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteDate.c
 142C text21 CODE >118:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteDate.c
-142E text20 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-142E text20 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1432 text20 CODE >44:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-146A text20 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-146C text20 CODE >49:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-147C text20 CODE >50:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-148C text20 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1492 text20 CODE >55:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1496 text20 CODE >58:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14A4 text20 CODE >60:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14AA text20 CODE >62:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14B8 text20 CODE >64:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14C0 text20 CODE >65:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14C6 text20 CODE >68:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14CC text20 CODE >69:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14D0 text20 CODE >71:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14D4 text20 CODE >72:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14D8 text20 CODE >73:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14E8 text20 CODE >76:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14EE text20 CODE >77:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14F2 text20 CODE >79:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14F6 text20 CODE >80:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14FA text20 CODE >81:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-14FE text20 CODE >82:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1502 text20 CODE >84:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1508 text20 CODE >86:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-150C text20 CODE >87:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1512 text20 CODE >89:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1516 text20 CODE >92:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-151C text20 CODE >94:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1520 text20 CODE >96:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1522 text20 CODE >99:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1528 text20 CODE >101:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-152C text20 CODE >102:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-152E text20 CODE >105:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1534 text20 CODE >108:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-1538 text20 CODE >113:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
-153A text2 CODE >36:C:\laboratorio\main.c
-153A text2 CODE >38:C:\laboratorio\main.c
-1540 text2 CODE >39:C:\laboratorio\main.c
-154A text2 CODE >40:C:\laboratorio\main.c
-1556 text2 CODE >41:C:\laboratorio\main.c
-1582 text2 CODE >42:C:\laboratorio\main.c
-158C text2 CODE >43:C:\laboratorio\main.c
-1598 text2 CODE >44:C:\laboratorio\main.c
-15C4 text2 CODE >45:C:\laboratorio\main.c
-15CE text2 CODE >46:C:\laboratorio\main.c
-15DA text2 CODE >47:C:\laboratorio\main.c
-15DE text2 CODE >48:C:\laboratorio\main.c
-15EE text2 CODE >50:C:\laboratorio\main.c
-15F8 text2 CODE >51:C:\laboratorio\main.c
-1606 text2 CODE >53:C:\laboratorio\main.c
-1616 text2 CODE >55:C:\laboratorio\main.c
-162A text2 CODE >56:C:\laboratorio\main.c
-1634 text2 CODE >57:C:\laboratorio\main.c
-1642 text2 CODE >59:C:\laboratorio\main.c
-1644 text0 CODE >101:C:\laboratorio\main.c
-1644 text0 CODE >103:C:\laboratorio\main.c
-1648 text0 CODE >104:C:\laboratorio\main.c
-164C text0 CODE >105:C:\laboratorio\main.c
-1652 text0 CODE >109:C:\laboratorio\main.c
-1656 text0 CODE >110:C:\laboratorio\main.c
-165A text0 CODE >111:C:\laboratorio\main.c
-1664 text0 CODE >112:C:\laboratorio\main.c
-166E text0 CODE >113:C:\laboratorio\main.c
-1672 text0 CODE >115:C:\laboratorio\main.c
-1674 text0 CODE >116:C:\laboratorio\main.c
-167E text0 CODE >117:C:\laboratorio\main.c
-168C text0 CODE >122:C:\laboratorio\main.c
-16C8 text0 CODE >123:C:\laboratorio\main.c
-16D2 text0 CODE >124:C:\laboratorio\main.c
-16D6 text0 CODE >127:C:\laboratorio\main.c
-16DE text0 CODE >128:C:\laboratorio\main.c
-16E2 text0 CODE >129:C:\laboratorio\main.c
-16E8 text0 CODE >132:C:\laboratorio\main.c
-16F8 text0 CODE >133:C:\laboratorio\main.c
-16FC text0 CODE >135:C:\laboratorio\main.c
-16FE text0 CODE >136:C:\laboratorio\main.c
-1700 text0 CODE >138:C:\laboratorio\main.c
-1704 text0 CODE >140:C:\laboratorio\main.c
-1706 text0 CODE >141:C:\laboratorio\main.c
-1708 text0 CODE >142:C:\laboratorio\main.c
-170C text0 CODE >144:C:\laboratorio\main.c
-171C text0 CODE >107:C:\laboratorio\main.c
-171E text0 CODE >148:C:\laboratorio\main.c
-1722 text23 CODE >111:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1722 text23 CODE >114:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-172E text23 CODE >115:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1734 text23 CODE >116:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-173C text23 CODE >117:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1742 text23 CODE >118:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-174A text23 CODE >119:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1750 text23 CODE >120:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1758 text23 CODE >121:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1764 text23 CODE >122:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-176A text23 CODE >123:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1772 text23 CODE >124:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1778 text23 CODE >125:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1780 text23 CODE >126:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1784 text23 CODE >127:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-178A text23 CODE >128:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-1792 text23 CODE >130:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17A2 text23 CODE >131:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17B2 text23 CODE >132:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17C2 text23 CODE >133:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17D2 text23 CODE >134:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17D8 text23 CODE >135:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17E8 text23 CODE >136:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17F8 text23 CODE >137:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
-17FA text19 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-17FA text19 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-17FE text19 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1802 text19 CODE >16:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-180A text19 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1810 text19 CODE >19:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1814 text19 CODE >20:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-181C text19 CODE >21:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1822 text19 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-182A text19 CODE >24:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1832 text19 CODE >25:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1836 text19 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1838 text19 CODE >27:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-183E text19 CODE >28:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1842 text19 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-184A text19 CODE >31:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1850 text19 CODE >32:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-185C text19 CODE >33:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1864 text19 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1868 text19 CODE >36:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-186E text19 CODE >37:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1874 text19 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-187A text19 CODE >40:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1884 text19 CODE >41:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-188E text19 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
-1890 text25 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-1890 text25 CODE >28:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-1896 text25 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-189C text25 CODE >31:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18A0 text25 CODE >32:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18A4 text25 CODE >33:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18A8 text25 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18AC text25 CODE >35:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18B0 text25 CODE >36:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18B4 text25 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18BA text25 CODE >40:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18C0 text25 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18C4 text25 CODE >43:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18C8 text25 CODE >44:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18CC text25 CODE >45:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18D0 text25 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18D4 text25 CODE >47:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18D8 text25 CODE >49:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18E0 text25 CODE >51:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-18F0 text25 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-1900 text25 CODE >53:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-190C text25 CODE >54:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-191C text25 CODE >55:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
-191E text12 CODE >119:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-191E text12 CODE >122:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1920 text12 CODE >123:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1922 text12 CODE >128:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1924 text12 CODE >129:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1926 text12 CODE >134:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1928 text12 CODE >135:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-192A text12 CODE >136:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-192C text12 CODE >137:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-192E text12 CODE >139:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1934 text12 CODE >140:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-193A text12 CODE >141:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1940 text12 CODE >143:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-194C text12 CODE >144:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1952 text12 CODE >145:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1958 text12 CODE >143:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-195C text12 CODE >148:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1962 text12 CODE >150:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1970 text12 CODE >151:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-198C text12 CODE >153:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1992 text12 CODE >150:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-199C text12 CODE >156:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-199E text16 CODE >25:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-19A0 text16 CODE >27:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-19B8 text16 CODE >28:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-19D2 text16 CODE >29:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-19EE text16 CODE >30:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1A08 text16 CODE >32:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1A0A text16 CODE >33:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1A0C text16 CODE >34:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1A10 text16 CODE >35:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1A12 text16 CODE >36:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1A14 text24 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A14 text24 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A1A text24 CODE >30:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A1E text24 CODE >32:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A22 text24 CODE >33:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A26 text24 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A2A text24 CODE >35:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A2E text24 CODE >38:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A34 text24 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A38 text24 CODE >41:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A3C text24 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A40 text24 CODE >43:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A44 text24 CODE >44:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A48 text24 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A50 text24 CODE >48:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A60 text24 CODE >49:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A70 text24 CODE >50:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A80 text24 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
-1A82 text7 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1A82 text7 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1A8A text7 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1A92 text7 CODE >16:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1A96 text7 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1A98 text7 CODE >18:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1A9E text7 CODE >19:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1AA2 text7 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1AAA text7 CODE >22:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1AB0 text7 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1ABC text7 CODE >24:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1AC4 text7 CODE >25:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1AC8 text7 CODE >27:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1ACE text7 CODE >28:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1AD4 text7 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1AD4 text7 CODE >30:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1ADC text7 CODE >31:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
-1ADE text8 CODE >221:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1ADE text8 CODE >223:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1AE0 text8 CODE >224:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B0A text8 CODE >223:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B30 text8 CODE >226:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B32 text6 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B32 text6 CODE >13:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B3A text6 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B3E text6 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B40 text6 CODE >16:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B46 text6 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B4A text6 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B52 text6 CODE >20:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B5E text6 CODE >21:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B68 text6 CODE >22:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B6E text6 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B74 text6 CODE >24:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B74 text6 CODE >25:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B7C text6 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
-1B7E text9 CODE >172:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B80 text9 CODE >173:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B82 text9 CODE >175:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B8C text9 CODE >176:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B8E text9 CODE >178:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B98 text9 CODE >179:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1B9A text9 CODE >181:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1BA4 text9 CODE >182:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1BA6 text9 CODE >184:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1BB0 text9 CODE >186:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1BB2 text9 CODE >173:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1BC8 text9 CODE >187:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1BCA text11 CODE >67:C:\laboratorio\main.c
-1BCA text11 CODE >69:C:\laboratorio\main.c
-1BCC text11 CODE >70:C:\laboratorio\main.c
-1BCE text11 CODE >71:C:\laboratorio\main.c
-1BD0 text11 CODE >72:C:\laboratorio\main.c
-1BD2 text11 CODE >73:C:\laboratorio\main.c
-1BD4 text11 CODE >74:C:\laboratorio\main.c
-1BD6 text11 CODE >75:C:\laboratorio\main.c
-1BD8 text11 CODE >76:C:\laboratorio\main.c
-1BDA text11 CODE >77:C:\laboratorio\main.c
-1BDE text11 CODE >78:C:\laboratorio\main.c
-1BE2 text11 CODE >82:C:\laboratorio\main.c
-1BE6 text11 CODE >83:C:\laboratorio\main.c
-1BEC text11 CODE >84:C:\laboratorio\main.c
-1BF0 text11 CODE >85:C:\laboratorio\main.c
-1BF4 text11 CODE >86:C:\laboratorio\main.c
-1BF8 text11 CODE >87:C:\laboratorio\main.c
-1BFC text11 CODE >88:C:\laboratorio\main.c
-1BFE text11 CODE >89:C:\laboratorio\main.c
-1C02 text11 CODE >90:C:\laboratorio\main.c
-1C06 text11 CODE >91:C:\laboratorio\main.c
-1C0C text11 CODE >92:C:\laboratorio\main.c
-1C0E text11 CODE >93:C:\laboratorio\main.c
-1C10 text11 CODE >94:C:\laboratorio\main.c
-1C12 cinit CODE >1462:C:\Users\Matias\AppData\Local\Temp\s320.
-1C12 cinit CODE >1464:C:\Users\Matias\AppData\Local\Temp\s320.
-1C12 cinit CODE >1467:C:\Users\Matias\AppData\Local\Temp\s320.
-1C12 cinit CODE >1575:C:\Users\Matias\AppData\Local\Temp\s320.
-1C16 cinit CODE >1576:C:\Users\Matias\AppData\Local\Temp\s320.
-1C18 cinit CODE >1577:C:\Users\Matias\AppData\Local\Temp\s320.
-1C18 cinit CODE >1578:C:\Users\Matias\AppData\Local\Temp\s320.
-1C1A cinit CODE >1579:C:\Users\Matias\AppData\Local\Temp\s320.
-1C1C cinit CODE >1580:C:\Users\Matias\AppData\Local\Temp\s320.
-1C1E cinit CODE >1583:C:\Users\Matias\AppData\Local\Temp\s320.
-1C20 cinit CODE >1586:C:\Users\Matias\AppData\Local\Temp\s320.
-1C24 cinit CODE >1587:C:\Users\Matias\AppData\Local\Temp\s320.
-1C26 cinit CODE >1588:C:\Users\Matias\AppData\Local\Temp\s320.
-1C26 cinit CODE >1589:C:\Users\Matias\AppData\Local\Temp\s320.
-1C28 cinit CODE >1590:C:\Users\Matias\AppData\Local\Temp\s320.
-1C2A cinit CODE >1591:C:\Users\Matias\AppData\Local\Temp\s320.
-1C2C cinit CODE >1596:C:\Users\Matias\AppData\Local\Temp\s320.
-1C2E cinit CODE >1597:C:\Users\Matias\AppData\Local\Temp\s320.
-1C30 cinit CODE >1598:C:\Users\Matias\AppData\Local\Temp\s320.
-1C32 cinit CODE >1599:C:\Users\Matias\AppData\Local\Temp\s320.
-1C34 cinit CODE >1600:C:\Users\Matias\AppData\Local\Temp\s320.
-1C36 cinit CODE >1601:C:\Users\Matias\AppData\Local\Temp\s320.
-1C38 cinit CODE >1602:C:\Users\Matias\AppData\Local\Temp\s320.
-1C3C cinit CODE >1603:C:\Users\Matias\AppData\Local\Temp\s320.
-1C40 cinit CODE >1604:C:\Users\Matias\AppData\Local\Temp\s320.
-1C40 cinit CODE >1605:C:\Users\Matias\AppData\Local\Temp\s320.
-1C42 cinit CODE >1606:C:\Users\Matias\AppData\Local\Temp\s320.
-1C46 cinit CODE >1607:C:\Users\Matias\AppData\Local\Temp\s320.
-1C48 cinit CODE >1608:C:\Users\Matias\AppData\Local\Temp\s320.
-1C4A cinit CODE >1609:C:\Users\Matias\AppData\Local\Temp\s320.
-1C4C cinit CODE >1615:C:\Users\Matias\AppData\Local\Temp\s320.
-1C4C cinit CODE >1617:C:\Users\Matias\AppData\Local\Temp\s320.
-1C4E cinit CODE >1618:C:\Users\Matias\AppData\Local\Temp\s320.
-1C50 cinit CODE >1619:C:\Users\Matias\AppData\Local\Temp\s320.
-1C52 cinit CODE >1620:C:\Users\Matias\AppData\Local\Temp\s320.
-1C56 text15 CODE >86:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C58 text15 CODE >88:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C5A text15 CODE >93:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C60 text15 CODE >96:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C62 text15 CODE >97:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C64 text15 CODE >98:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C66 text15 CODE >99:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C68 text15 CODE >101:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C6E text15 CODE >102:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C72 text15 CODE >103:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C72 text15 CODE >104:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C74 text15 CODE >106:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C76 text15 CODE >113:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C7E text15 CODE >114:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C86 text15 CODE >115:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1C88 text5 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
-1C88 text5 CODE >37:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
-1C94 text5 CODE >38:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
-1C9C text5 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
-1CA4 text5 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
-1CAE text5 CODE >53:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
-1CB0 text10 CODE >158:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CB2 text10 CODE >161:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CB8 text10 CODE >162:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CBC text10 CODE >164:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CC2 text10 CODE >166:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CC6 text10 CODE >167:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CD2 text10 CODE >168:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CD4 text4 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\isdigit.c
-1CD6 text4 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\isdigit.c
-1CF4 text4 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\isdigit.c
-1CF6 text1 CODE >210:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1CF8 text1 CODE >211:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1D08 text1 CODE >212:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1D0A text13 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
-1D0C text13 CODE >11:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
-1D14 text13 CODE >12:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
-1D1A text13 CODE >13:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
-1D1C text17 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
-1D1E text17 CODE >11:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
-1D26 text17 CODE >12:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
-1D2C text17 CODE >13:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
-1D2E text22 CODE >21:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
-1D2E text22 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
-1D30 text22 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
-1D34 text22 CODE >30:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
-1D38 text22 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
-1D3C text22 CODE >45:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
-1D3E text22 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
-1D40 text14 CODE >189:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1D42 text14 CODE >190:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
-1D4C text14 CODE >191:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+142E text0 CODE >101:C:\laboratorio\main.c
+142E text0 CODE >103:C:\laboratorio\main.c
+1432 text0 CODE >104:C:\laboratorio\main.c
+1436 text0 CODE >105:C:\laboratorio\main.c
+143C text0 CODE >109:C:\laboratorio\main.c
+1440 text0 CODE >110:C:\laboratorio\main.c
+1444 text0 CODE >111:C:\laboratorio\main.c
+144E text0 CODE >112:C:\laboratorio\main.c
+1458 text0 CODE >113:C:\laboratorio\main.c
+145C text0 CODE >115:C:\laboratorio\main.c
+145E text0 CODE >116:C:\laboratorio\main.c
+1468 text0 CODE >117:C:\laboratorio\main.c
+1476 text0 CODE >122:C:\laboratorio\main.c
+14B2 text0 CODE >123:C:\laboratorio\main.c
+14BC text0 CODE >124:C:\laboratorio\main.c
+14C0 text0 CODE >127:C:\laboratorio\main.c
+14C8 text0 CODE >128:C:\laboratorio\main.c
+14CC text0 CODE >129:C:\laboratorio\main.c
+14D2 text0 CODE >132:C:\laboratorio\main.c
+14E2 text0 CODE >133:C:\laboratorio\main.c
+14E6 text0 CODE >135:C:\laboratorio\main.c
+14E8 text0 CODE >136:C:\laboratorio\main.c
+14EA text0 CODE >138:C:\laboratorio\main.c
+14EE text0 CODE >140:C:\laboratorio\main.c
+14F6 text0 CODE >141:C:\laboratorio\main.c
+14FA text0 CODE >142:C:\laboratorio\main.c
+150A text0 CODE >143:C:\laboratorio\main.c
+1514 text0 CODE >145:C:\laboratorio\main.c
+1518 text0 CODE >146:C:\laboratorio\main.c
+1526 text0 CODE >152:C:\laboratorio\main.c
+1528 text0 CODE >153:C:\laboratorio\main.c
+152C text0 CODE >155:C:\laboratorio\main.c
+153C text0 CODE >107:C:\laboratorio\main.c
+153E text0 CODE >159:C:\laboratorio\main.c
+1542 text20 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1542 text20 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1546 text20 CODE >44:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+157E text20 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1580 text20 CODE >49:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1590 text20 CODE >50:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15A0 text20 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15A6 text20 CODE >55:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15AA text20 CODE >58:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15B8 text20 CODE >60:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15BE text20 CODE >62:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15CC text20 CODE >64:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15D4 text20 CODE >65:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15DA text20 CODE >68:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15E0 text20 CODE >69:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15E4 text20 CODE >71:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15E8 text20 CODE >72:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15EC text20 CODE >73:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+15FC text20 CODE >76:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1602 text20 CODE >77:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1606 text20 CODE >79:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+160A text20 CODE >80:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+160E text20 CODE >81:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1612 text20 CODE >82:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1616 text20 CODE >84:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+161C text20 CODE >86:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1620 text20 CODE >87:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1626 text20 CODE >89:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+162A text20 CODE >92:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1630 text20 CODE >94:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1634 text20 CODE >96:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1636 text20 CODE >99:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+163C text20 CODE >101:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1640 text20 CODE >102:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1642 text20 CODE >105:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+1648 text20 CODE >108:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+164C text20 CODE >113:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWriteTime.c
+164E text2 CODE >36:C:\laboratorio\main.c
+164E text2 CODE >38:C:\laboratorio\main.c
+1654 text2 CODE >39:C:\laboratorio\main.c
+165E text2 CODE >40:C:\laboratorio\main.c
+166A text2 CODE >41:C:\laboratorio\main.c
+1696 text2 CODE >42:C:\laboratorio\main.c
+16A0 text2 CODE >43:C:\laboratorio\main.c
+16AC text2 CODE >44:C:\laboratorio\main.c
+16D8 text2 CODE >45:C:\laboratorio\main.c
+16E2 text2 CODE >46:C:\laboratorio\main.c
+16EE text2 CODE >47:C:\laboratorio\main.c
+16F2 text2 CODE >48:C:\laboratorio\main.c
+1702 text2 CODE >50:C:\laboratorio\main.c
+170C text2 CODE >51:C:\laboratorio\main.c
+171A text2 CODE >53:C:\laboratorio\main.c
+172A text2 CODE >55:C:\laboratorio\main.c
+173E text2 CODE >56:C:\laboratorio\main.c
+1748 text2 CODE >57:C:\laboratorio\main.c
+1756 text2 CODE >59:C:\laboratorio\main.c
+1758 text23 CODE >111:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1758 text23 CODE >114:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1764 text23 CODE >115:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+176A text23 CODE >116:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1772 text23 CODE >117:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1778 text23 CODE >118:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1780 text23 CODE >119:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1786 text23 CODE >120:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+178E text23 CODE >121:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+179A text23 CODE >122:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17A0 text23 CODE >123:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17A8 text23 CODE >124:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17AE text23 CODE >125:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17B6 text23 CODE >126:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17BA text23 CODE >127:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17C0 text23 CODE >128:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17C8 text23 CODE >130:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17D8 text23 CODE >131:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17E8 text23 CODE >132:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+17F8 text23 CODE >133:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1808 text23 CODE >134:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+180E text23 CODE >135:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+181E text23 CODE >136:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+182E text23 CODE >137:C:/Archivos de programa/Unimic/unmc_01/headers\unmc_rtcc_01.h
+1830 text19 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1830 text19 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1834 text19 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1838 text19 CODE >16:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1840 text19 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1846 text19 CODE >19:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+184A text19 CODE >20:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1852 text19 CODE >21:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1858 text19 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1860 text19 CODE >24:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1868 text19 CODE >25:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+186C text19 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+186E text19 CODE >27:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1874 text19 CODE >28:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1878 text19 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1880 text19 CODE >31:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1886 text19 CODE >32:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+1892 text19 CODE >33:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+189A text19 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+189E text19 CODE >36:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+18A4 text19 CODE >37:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+18AA text19 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+18B0 text19 CODE >40:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+18BA text19 CODE >41:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+18C4 text19 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\common\awdiv.c
+18C6 text25 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18C6 text25 CODE >28:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18CC text25 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18D2 text25 CODE >31:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18D6 text25 CODE >32:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18DA text25 CODE >33:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18DE text25 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18E2 text25 CODE >35:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18E6 text25 CODE >36:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18EA text25 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18F0 text25 CODE >40:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18F6 text25 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18FA text25 CODE >43:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+18FE text25 CODE >44:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1902 text25 CODE >45:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1906 text25 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+190A text25 CODE >47:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+190E text25 CODE >49:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1916 text25 CODE >51:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1926 text25 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1936 text25 CODE >53:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1942 text25 CODE >54:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1952 text25 CODE >55:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadDate.c
+1954 text12 CODE >119:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1954 text12 CODE >122:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1956 text12 CODE >123:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1958 text12 CODE >128:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+195A text12 CODE >129:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+195C text12 CODE >134:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+195E text12 CODE >135:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1960 text12 CODE >136:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1962 text12 CODE >137:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1964 text12 CODE >139:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+196A text12 CODE >140:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1970 text12 CODE >141:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1976 text12 CODE >143:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1982 text12 CODE >144:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1988 text12 CODE >145:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+198E text12 CODE >143:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1992 text12 CODE >148:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1998 text12 CODE >150:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+19A6 text12 CODE >151:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+19C2 text12 CODE >153:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+19C8 text12 CODE >150:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+19D2 text12 CODE >156:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+19D4 text16 CODE >25:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+19D6 text16 CODE >27:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+19EE text16 CODE >28:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A08 text16 CODE >29:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A24 text16 CODE >30:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A3E text16 CODE >32:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A40 text16 CODE >33:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A42 text16 CODE >34:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A46 text16 CODE >35:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A48 text16 CODE >36:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1A4A text24 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A4A text24 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A50 text24 CODE >30:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A54 text24 CODE >32:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A58 text24 CODE >33:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A5C text24 CODE >34:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A60 text24 CODE >35:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A64 text24 CODE >38:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A6A text24 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A6E text24 CODE >41:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A72 text24 CODE >42:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A76 text24 CODE >43:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A7A text24 CODE >44:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A7E text24 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A86 text24 CODE >48:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1A96 text24 CODE >49:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1AA6 text24 CODE >50:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1AB6 text24 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccReadTime.c
+1AB8 text7 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AB8 text7 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AC0 text7 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AC8 text7 CODE >16:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1ACC text7 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1ACE text7 CODE >18:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AD4 text7 CODE >19:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AD8 text7 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AE0 text7 CODE >22:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AE6 text7 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AF2 text7 CODE >24:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AFA text7 CODE >25:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1AFE text7 CODE >27:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1B04 text7 CODE >28:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1B0A text7 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1B0A text7 CODE >30:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1B12 text7 CODE >31:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+1B14 text8 CODE >221:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1B14 text8 CODE >223:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1B16 text8 CODE >224:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1B40 text8 CODE >223:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1B66 text8 CODE >226:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1B68 text6 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B68 text6 CODE >13:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B70 text6 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B74 text6 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B76 text6 CODE >16:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B7C text6 CODE >17:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B80 text6 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B88 text6 CODE >20:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B94 text6 CODE >21:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1B9E text6 CODE >22:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1BA4 text6 CODE >23:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1BAA text6 CODE >24:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1BAA text6 CODE >25:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1BB2 text6 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+1BB4 text9 CODE >172:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BB6 text9 CODE >173:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BB8 text9 CODE >175:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BC2 text9 CODE >176:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BC4 text9 CODE >178:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BCE text9 CODE >179:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BD0 text9 CODE >181:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BDA text9 CODE >182:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BDC text9 CODE >184:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BE6 text9 CODE >186:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BE8 text9 CODE >173:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1BFE text9 CODE >187:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C00 text11 CODE >67:C:\laboratorio\main.c
+1C00 text11 CODE >69:C:\laboratorio\main.c
+1C02 text11 CODE >70:C:\laboratorio\main.c
+1C04 text11 CODE >71:C:\laboratorio\main.c
+1C06 text11 CODE >72:C:\laboratorio\main.c
+1C08 text11 CODE >73:C:\laboratorio\main.c
+1C0A text11 CODE >74:C:\laboratorio\main.c
+1C0C text11 CODE >75:C:\laboratorio\main.c
+1C0E text11 CODE >76:C:\laboratorio\main.c
+1C10 text11 CODE >77:C:\laboratorio\main.c
+1C14 text11 CODE >78:C:\laboratorio\main.c
+1C18 text11 CODE >82:C:\laboratorio\main.c
+1C1C text11 CODE >83:C:\laboratorio\main.c
+1C22 text11 CODE >84:C:\laboratorio\main.c
+1C26 text11 CODE >85:C:\laboratorio\main.c
+1C2A text11 CODE >86:C:\laboratorio\main.c
+1C2E text11 CODE >87:C:\laboratorio\main.c
+1C32 text11 CODE >88:C:\laboratorio\main.c
+1C34 text11 CODE >89:C:\laboratorio\main.c
+1C38 text11 CODE >90:C:\laboratorio\main.c
+1C3C text11 CODE >91:C:\laboratorio\main.c
+1C42 text11 CODE >92:C:\laboratorio\main.c
+1C44 text11 CODE >93:C:\laboratorio\main.c
+1C46 text11 CODE >94:C:\laboratorio\main.c
+1C48 cinit CODE >1463:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C48 cinit CODE >1465:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C48 cinit CODE >1468:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C48 cinit CODE >1576:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C4C cinit CODE >1577:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C4E cinit CODE >1578:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C4E cinit CODE >1579:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C50 cinit CODE >1580:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C52 cinit CODE >1581:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C54 cinit CODE >1584:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C56 cinit CODE >1587:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C5A cinit CODE >1588:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C5C cinit CODE >1589:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C5C cinit CODE >1590:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C5E cinit CODE >1591:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C60 cinit CODE >1592:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C62 cinit CODE >1597:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C64 cinit CODE >1598:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C66 cinit CODE >1599:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C68 cinit CODE >1600:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C6A cinit CODE >1601:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C6C cinit CODE >1602:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C6E cinit CODE >1603:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C72 cinit CODE >1604:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C76 cinit CODE >1605:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C76 cinit CODE >1606:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C78 cinit CODE >1607:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C7C cinit CODE >1608:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C7E cinit CODE >1609:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C80 cinit CODE >1610:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C82 cinit CODE >1616:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C82 cinit CODE >1618:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C84 cinit CODE >1619:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C86 cinit CODE >1620:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C88 cinit CODE >1621:C:\Users\Matias\AppData\Local\Temp\s3ig.
+1C8C text15 CODE >86:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C8E text15 CODE >88:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C90 text15 CODE >93:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C96 text15 CODE >96:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C98 text15 CODE >97:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C9A text15 CODE >98:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C9C text15 CODE >99:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1C9E text15 CODE >101:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CA4 text15 CODE >102:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CA8 text15 CODE >103:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CA8 text15 CODE >104:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CAA text15 CODE >106:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CAC text15 CODE >113:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CB4 text15 CODE >114:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CBC text15 CODE >115:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CBE text5 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
+1CBE text5 CODE >37:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
+1CCA text5 CODE >38:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
+1CD2 text5 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
+1CDA text5 CODE >52:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
+1CE4 text5 CODE >53:C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul16.c
+1CE6 text10 CODE >158:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CE8 text10 CODE >161:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CEE text10 CODE >162:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CF2 text10 CODE >164:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CF8 text10 CODE >166:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1CFC text10 CODE >167:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1D08 text10 CODE >168:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1D0A text4 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\common\isdigit.c
+1D0C text4 CODE >14:C:\Program Files\Microchip\xc8\v1.34\sources\common\isdigit.c
+1D2A text4 CODE >15:C:\Program Files\Microchip\xc8\v1.34\sources\common\isdigit.c
+1D2C text1 CODE >210:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1D2E text1 CODE >211:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1D3E text1 CODE >212:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1D40 text13 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
+1D42 text13 CODE >11:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
+1D4A text13 CODE >12:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
+1D50 text13 CODE >13:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d1ktcyx.c
+1D52 text17 CODE >8:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
+1D54 text17 CODE >11:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
+1D5C text17 CODE >12:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
+1D62 text17 CODE >13:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\d100tcyx.c
+1D64 text22 CODE >21:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
+1D64 text22 CODE >26:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
+1D66 text22 CODE >29:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
+1D6A text22 CODE >30:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
+1D6E text22 CODE >39:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
+1D72 text22 CODE >45:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
+1D74 text22 CODE >46:C:\Program Files\Microchip\xc8\v1.34\sources\pic18\plib\rtcc\RtccWrOn.c
+1D76 text14 CODE >189:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1D78 text14 CODE >190:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
+1D82 text14 CODE >191:C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -611,20 +616,20 @@ __Hspace_2 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __CFG_T1DIG$ON 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\laboratorio.production.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Matias\AppData\Local\Temp\s320.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 RtccWriteTime@tempHourWDay A 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 _T1CONbits FCD 0 ABS 0 - dist/default/production\laboratorio.production.obj
-_Delay1KTCYx 1D0A 0 CODE 0 text13 dist/default/production\laboratorio.production.obj
+_Delay1KTCYx 1D40 0 CODE 0 text13 dist/default/production\laboratorio.production.obj
 __CFG_WPCFG$OFF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 main@x 26 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 main@y 25 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __Lsmallconst F00 0 SMALLCONST 0 smallconst dist/default/production\laboratorio.production.obj
-___sp 0 0 STACK 2 stack C:\Users\Matias\AppData\Local\Temp\s320.obj
+___sp 0 0 STACK 2 stack C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 _anio 4E 0 COMRAM 1 dataCOMRAM dist/default/production\laboratorio.production.obj
 _flag 2D0 -276 COMRAM 1 bitbssCOMRAM dist/default/production\laboratorio.production.obj
 _hora 54 0 COMRAM 1 dataCOMRAM dist/default/production\laboratorio.production.obj
-_main 1644 0 CODE 0 text0 dist/default/production\laboratorio.production.obj
-start 0 0 CODE 0 init C:\Users\Matias\AppData\Local\Temp\s320.obj
+_main 142E 0 CODE 0 text0 dist/default/production\laboratorio.production.obj
+start 0 0 CODE 0 init C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 RtccWriteDate@tempDayMonth A 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __size_of___awdiv 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
@@ -632,22 +637,22 @@ __size_of___lwdiv 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __size_of___lwmod 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __CFG_WDTEN$OFF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\laboratorio.production.obj
-__end_of_lcd_comand 1D4E 0 CODE 0 text14 dist/default/production\laboratorio.production.obj
+__end_of_lcd_comand 1D84 0 CODE 0 text14 dist/default/production\laboratorio.production.obj
 ?___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __end_of_Write_RTC 12E8 0 CODE 0 text18 dist/default/production\laboratorio.production.obj
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\laboratorio.production.obj
 __pbitbssCOMRAM 2D0 -276 COMRAM 1 bitbssCOMRAM dist/default/production\laboratorio.production.obj
 __size_of_Write_RTC 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-__end_of_lcd_gotoxy 1CD4 0 CODE 0 text10 dist/default/production\laboratorio.production.obj
+__end_of_lcd_gotoxy 1D0A 0 CODE 0 text10 dist/default/production\laboratorio.production.obj
 __LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/production\laboratorio.production.obj
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\laboratorio.production.obj
-__end_of_lcd_putrs 1B32 0 CODE 0 text8 dist/default/production\laboratorio.production.obj
-_Read_RTC 1722 0 CODE 0 text23 dist/default/production\laboratorio.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\Matias\AppData\Local\Temp\s320.obj
-intlevel0 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s320.obj
-intlevel1 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s320.obj
-intlevel2 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s320.obj
-intlevel3 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s320.obj
+__end_of_lcd_putrs 1B68 0 CODE 0 text8 dist/default/production\laboratorio.production.obj
+_Read_RTC 1758 0 CODE 0 text23 dist/default/production\laboratorio.production.obj
+__accesstop 60 0 ABS 0 - C:\Users\Matias\AppData\Local\Temp\s3ig.obj
+intlevel0 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s3ig.obj
+intlevel1 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s3ig.obj
+intlevel2 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s3ig.obj
+intlevel3 0 0 CODE 0 text C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 __size_of_lcd_putrs 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\laboratorio.production.obj
 lcd_comand@d 5 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
@@ -655,43 +660,43 @@ _OSCCONbits FD3 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\laboratorio.production.obj
 __CFG_RTCOSC$T1OSCREF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 RtccWriteTime@wasOn 5 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-__end_of_Read_RTC 17FA 0 CODE 0 text23 dist/default/production\laboratorio.production.obj
+__end_of_Read_RTC 1830 0 CODE 0 text23 dist/default/production\laboratorio.production.obj
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\laboratorio.production.obj
 _Write_RTC 11A0 0 CODE 0 text18 dist/default/production\laboratorio.production.obj
 RtccWriteTime@di 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 ___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\laboratorio.production.obj
-__pidataCOMRAM 1D4E 0 CODE 0 idataCOMRAM dist/default/production\laboratorio.production.obj
-_lcd_putrs 1ADE 0 CODE 0 text8 dist/default/production\laboratorio.production.obj
+__pidataCOMRAM 1D84 0 CODE 0 idataCOMRAM dist/default/production\laboratorio.production.obj
+_lcd_putrs 1B14 0 CODE 0 text8 dist/default/production\laboratorio.production.obj
 ___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 _ADCON0 FC2 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _ADCON1 FC1 0 ABS 0 - dist/default/production\laboratorio.production.obj
-_Delay100TCYx 1D1C 0 CODE 0 text17 dist/default/production\laboratorio.production.obj
+_Delay100TCYx 1D52 0 CODE 0 text17 dist/default/production\laboratorio.production.obj
 _ANCON0 F48 0 ABS 0 - dist/default/production\laboratorio.production.obj
 ___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 Delay100TCYx@unit 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\Matias\AppData\Local\Temp\s320.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\Matias\AppData\Local\Temp\s320.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Matias\AppData\Local\Temp\s3ig.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\laboratorio.production.obj
 lcd_setcursor_vb@blink 5 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\laboratorio.production.obj
 RtccReadDate@rTD0 B 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 RtccReadDate@rTD1 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-__end_of___wmul 1CB0 0 CODE 0 text5 dist/default/production\laboratorio.production.obj
+__end_of___wmul 1CE6 0 CODE 0 text5 dist/default/production\laboratorio.production.obj
 lcd_send_byte@address 4 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 _EECON2 FA7 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\laboratorio.production.obj
 _RtccWriteDate 12E8 0 CODE 0 text21 dist/default/production\laboratorio.production.obj
-_RtccWriteTime 142E 0 CODE 0 text20 dist/default/production\laboratorio.production.obj
+_RtccWriteTime 1542 0 CODE 0 text20 dist/default/production\laboratorio.production.obj
 __size_of_sprintf 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\laboratorio.production.obj
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\laboratorio.production.obj
 ___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 Delay1KTCYx@unit 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 ___lwmod@divisor A 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-__end_of___awdiv 1890 0 CODE 0 text19 dist/default/production\laboratorio.production.obj
-__end_of___lwdiv 1ADE 0 CODE 0 text7 dist/default/production\laboratorio.production.obj
-__end_of___lwmod 1B7E 0 CODE 0 text6 dist/default/production\laboratorio.production.obj
+__end_of___awdiv 18C6 0 CODE 0 text19 dist/default/production\laboratorio.production.obj
+__end_of___lwdiv 1B14 0 CODE 0 text7 dist/default/production\laboratorio.production.obj
+__end_of___lwmod 1BB4 0 CODE 0 text6 dist/default/production\laboratorio.production.obj
 __size_of_isdigit 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _OSCTUNEbits F9B 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _dpowers F01 0 SMALLCONST 0 smallconst dist/default/production\laboratorio.production.obj
@@ -705,7 +710,7 @@ RtccWriteTime@tempMinSec 8 0 COMRAM 1 cstackCOMRAM dist/default/production\labor
 ___lwmod@dividend 8 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\laboratorio.production.obj
 __CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-start_initialization 1C12 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
+start_initialization 1C48 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
 _segundo_d 4C 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
 _segundo_u 4D 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\laboratorio.production.obj
@@ -715,7 +720,7 @@ ___rparam_used 1 0 ABS 0 - dist/default/production\laboratorio.production.obj
 lcd_gotoxy@address 7 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 _RTCCFG F3F 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __CFG_WDTPS$32768 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-__end_of_Delay100TCYx 1D2E 0 CODE 0 text17 dist/default/production\laboratorio.production.obj
+__end_of_Delay100TCYx 1D64 0 CODE 0 text17 dist/default/production\laboratorio.production.obj
 RtccWriteDate@pDt 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 _minuto_d 4A 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
 _minuto_u 4B 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
@@ -758,7 +763,7 @@ __Hbank13 0 0 ABS 0 bank13 dist/default/production\laboratorio.production.obj
 __Hbank14 0 0 ABS 0 bank14 dist/default/production\laboratorio.production.obj
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\laboratorio.production.obj
 __Hbigram 0 0 ABS 0 bigram dist/default/production\laboratorio.production.obj
-__smallconst F00 0 SMALLCONST 0 smallconst C:\Users\Matias\AppData\Local\Temp\s320.obj
+__smallconst F00 0 SMALLCONST 0 smallconst C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 __end_of_sprintf 11A0 0 CODE 0 text3 dist/default/production\laboratorio.production.obj
 __size_of_lcd_init 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __size_of_lcd_putc 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
@@ -768,7 +773,7 @@ __Hcomram 0 0 ABS 0 comram dist/default/production\laboratorio.production.obj
 __Hconfig 10000 0 CONFIG 0 config dist/default/production\laboratorio.production.obj
 __size_of_lcd_gotoxy 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __CFG_LPT1OSC$OFF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-__end_of_Delay1KTCYx 1D1C 0 CODE 0 text13 dist/default/production\laboratorio.production.obj
+__end_of_Delay1KTCYx 1D52 0 CODE 0 text13 dist/default/production\laboratorio.production.obj
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\laboratorio.production.obj
 __Lbank1 0 0 ABS 0 bank1 dist/default/production\laboratorio.production.obj
 __Lbank2 0 0 ABS 0 bank2 dist/default/production\laboratorio.production.obj
@@ -779,7 +784,7 @@ __Lbank6 0 0 ABS 0 bank6 dist/default/production\laboratorio.production.obj
 __Lbank7 0 0 ABS 0 bank7 dist/default/production\laboratorio.production.obj
 __Lbank8 0 0 ABS 0 bank8 dist/default/production\laboratorio.production.obj
 __Lbank9 0 0 ABS 0 bank9 dist/default/production\laboratorio.production.obj
-__end_of_isdigit 1CF6 0 CODE 0 text4 dist/default/production\laboratorio.production.obj
+__end_of_isdigit 1D2C 0 CODE 0 text4 dist/default/production\laboratorio.production.obj
 __Lcinit 0 0 ABS 0 cinit dist/default/production\laboratorio.production.obj
 __Lconst 0 0 CODE 0 const dist/default/production\laboratorio.production.obj
 __Lidata 0 0 CODE 0 idata dist/default/production\laboratorio.production.obj
@@ -819,7 +824,7 @@ __Ltemp 0 0 COMRAM 1 temp dist/default/production\laboratorio.production.obj
 __Ltext 0 0 ABS 0 text dist/default/production\laboratorio.production.obj
 RtccWriteTime@pTm 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-___wmul 1C88 0 CODE 0 text5 dist/default/production\laboratorio.production.obj
+___wmul 1CBE 0 CODE 0 text5 dist/default/production\laboratorio.production.obj
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __Hintret 0 0 ABS 0 intret dist/default/production\laboratorio.production.obj
 __Hirdata 0 0 CODE 0 irdata dist/default/production\laboratorio.production.obj
@@ -835,7 +840,7 @@ __CFG_OSC$INTOSC 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __pnvCOMRAM 41 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
 __CFG_DSWDTPS$G2 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __end_of_RtccWriteDate 142E 0 CODE 0 text21 dist/default/production\laboratorio.production.obj
-__end_of_RtccWriteTime 153A 0 CODE 0 text20 dist/default/production\laboratorio.production.obj
+__end_of_RtccWriteTime 164E 0 CODE 0 text20 dist/default/production\laboratorio.production.obj
 __CFG_PLLDIV$1 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _diasem 52 0 COMRAM 1 dataCOMRAM dist/default/production\laboratorio.production.obj
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\laboratorio.production.obj
@@ -843,23 +848,23 @@ __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\laboratorio.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\laboratorio.production.obj
 sprintf@val 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __size_of_RtccWrOn 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-_lcd_init 191E 0 CODE 0 text12 dist/default/production\laboratorio.production.obj
-_lcd_putc 1B7E 0 CODE 0 text9 dist/default/production\laboratorio.production.obj
+_lcd_init 1954 0 CODE 0 text12 dist/default/production\laboratorio.production.obj
+_lcd_putc 1BB4 0 CODE 0 text9 dist/default/production\laboratorio.production.obj
 __Lintentry 0 0 ABS 0 intentry dist/default/production\laboratorio.production.obj
-_RtccReadDate 1890 0 CODE 0 text25 dist/default/production\laboratorio.production.obj
-_RtccReadTime 1A14 0 CODE 0 text24 dist/default/production\laboratorio.production.obj
+_RtccReadDate 18C6 0 CODE 0 text25 dist/default/production\laboratorio.production.obj
+_RtccReadTime 1A4A 0 CODE 0 text24 dist/default/production\laboratorio.production.obj
 _hora_d 46 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
 _hora_u 47 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
 __Hramtop F00 0 RAM 0 ramtop dist/default/production\laboratorio.production.obj
 _RTCCFGbits F3F 0 ABS 0 - dist/default/production\laboratorio.production.obj
-__end_of_lcd_send_nibble 1A14 0 CODE 0 text16 dist/default/production\laboratorio.production.obj
+__end_of_lcd_send_nibble 1A4A 0 CODE 0 text16 dist/default/production\laboratorio.production.obj
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\laboratorio.production.obj
 __activetblptr 2 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\laboratorio.production.obj
 __size_of___wmul 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\laboratorio.production.obj
-__end_of_lcd_init 199E 0 CODE 0 text12 dist/default/production\laboratorio.production.obj
-__end_of_lcd_putc 1BCA 0 CODE 0 text9 dist/default/production\laboratorio.production.obj
+__end_of_lcd_init 19D4 0 CODE 0 text12 dist/default/production\laboratorio.production.obj
+__end_of_lcd_putc 1C00 0 CODE 0 text9 dist/default/production\laboratorio.production.obj
 __Htext10 0 0 ABS 0 text10 dist/default/production\laboratorio.production.obj
 __Htext11 0 0 ABS 0 text11 dist/default/production\laboratorio.production.obj
 __Htext12 0 0 ABS 0 text12 dist/default/production\laboratorio.production.obj
@@ -883,29 +888,29 @@ _PIE3bits FA3 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _Rtcc_read_TimeDate 70 0 BANK0 1 bssBANK0 dist/default/production\laboratorio.production.obj
 _RTCVALH F99 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _RTCVALL F98 0 ABS 0 - dist/default/production\laboratorio.production.obj
-_lcd_send_byte 1C56 0 CODE 0 text15 dist/default/production\laboratorio.production.obj
+_lcd_send_byte 1C8C 0 CODE 0 text15 dist/default/production\laboratorio.production.obj
 _minuto 58 0 COMRAM 1 dataCOMRAM dist/default/production\laboratorio.production.obj
 sprintf@flag 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 sprintf@prec 20 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-__ptext10 1CB0 0 CODE 0 text10 dist/default/production\laboratorio.production.obj
-__ptext11 1BCA 0 CODE 0 text11 dist/default/production\laboratorio.production.obj
-__ptext12 191E 0 CODE 0 text12 dist/default/production\laboratorio.production.obj
-__ptext13 1D0A 0 CODE 0 text13 dist/default/production\laboratorio.production.obj
-__ptext14 1D40 0 CODE 0 text14 dist/default/production\laboratorio.production.obj
-__ptext15 1C56 0 CODE 0 text15 dist/default/production\laboratorio.production.obj
-__ptext16 199E 0 CODE 0 text16 dist/default/production\laboratorio.production.obj
-__ptext17 1D1C 0 CODE 0 text17 dist/default/production\laboratorio.production.obj
+__ptext10 1CE6 0 CODE 0 text10 dist/default/production\laboratorio.production.obj
+__ptext11 1C00 0 CODE 0 text11 dist/default/production\laboratorio.production.obj
+__ptext12 1954 0 CODE 0 text12 dist/default/production\laboratorio.production.obj
+__ptext13 1D40 0 CODE 0 text13 dist/default/production\laboratorio.production.obj
+__ptext14 1D76 0 CODE 0 text14 dist/default/production\laboratorio.production.obj
+__ptext15 1C8C 0 CODE 0 text15 dist/default/production\laboratorio.production.obj
+__ptext16 19D4 0 CODE 0 text16 dist/default/production\laboratorio.production.obj
+__ptext17 1D52 0 CODE 0 text17 dist/default/production\laboratorio.production.obj
 __ptext18 11A0 0 CODE 0 text18 dist/default/production\laboratorio.production.obj
-__ptext19 17FA 0 CODE 0 text19 dist/default/production\laboratorio.production.obj
-__ptext20 142E 0 CODE 0 text20 dist/default/production\laboratorio.production.obj
+__ptext19 1830 0 CODE 0 text19 dist/default/production\laboratorio.production.obj
+__ptext20 1542 0 CODE 0 text20 dist/default/production\laboratorio.production.obj
 __ptext21 12E8 0 CODE 0 text21 dist/default/production\laboratorio.production.obj
-__ptext22 1D2E 0 CODE 0 text22 dist/default/production\laboratorio.production.obj
-__ptext23 1722 0 CODE 0 text23 dist/default/production\laboratorio.production.obj
-__ptext24 1A14 0 CODE 0 text24 dist/default/production\laboratorio.production.obj
-__ptext25 1890 0 CODE 0 text25 dist/default/production\laboratorio.production.obj
-___awdiv 17FA 0 CODE 0 text19 dist/default/production\laboratorio.production.obj
-___lwdiv 1A82 0 CODE 0 text7 dist/default/production\laboratorio.production.obj
-___lwmod 1B32 0 CODE 0 text6 dist/default/production\laboratorio.production.obj
+__ptext22 1D64 0 CODE 0 text22 dist/default/production\laboratorio.production.obj
+__ptext23 1758 0 CODE 0 text23 dist/default/production\laboratorio.production.obj
+__ptext24 1A4A 0 CODE 0 text24 dist/default/production\laboratorio.production.obj
+__ptext25 18C6 0 CODE 0 text25 dist/default/production\laboratorio.production.obj
+___awdiv 1830 0 CODE 0 text19 dist/default/production\laboratorio.production.obj
+___lwdiv 1AB8 0 CODE 0 text7 dist/default/production\laboratorio.production.obj
+___lwmod 1B68 0 CODE 0 text6 dist/default/production\laboratorio.production.obj
 __Lbank10 0 0 ABS 0 bank10 dist/default/production\laboratorio.production.obj
 __Lbank11 0 0 ABS 0 bank11 dist/default/production\laboratorio.production.obj
 __Lbank12 0 0 ABS 0 bank12 dist/default/production\laboratorio.production.obj
@@ -925,17 +930,17 @@ __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\laboratorio.production.obj
 ___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 _RtccDate 39 0 COMRAM 1 bssCOMRAM dist/default/production\laboratorio.production.obj
 _RtccTime 3D 0 COMRAM 1 bssCOMRAM dist/default/production\laboratorio.production.obj
-_RtccWrOn 1D2E 0 CODE 0 text22 dist/default/production\laboratorio.production.obj
+_RtccWrOn 1D64 0 CODE 0 text22 dist/default/production\laboratorio.production.obj
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\laboratorio.production.obj
 _RtccAlrmTimeDate 60 0 BANK0 1 bssBANK0 dist/default/production\laboratorio.production.obj
-_lcd_setcursor_vb 1CF6 0 CODE 0 text1 dist/default/production\laboratorio.production.obj
-stackhi EBF 0 ABS 0 - C:\Users\Matias\AppData\Local\Temp\s320.obj
-stacklo 8C 0 ABS 0 - C:\Users\Matias\AppData\Local\Temp\s320.obj
-_lcd_send_nibble 199E 0 CODE 0 text16 dist/default/production\laboratorio.production.obj
+_lcd_setcursor_vb 1D2C 0 CODE 0 text1 dist/default/production\laboratorio.production.obj
+stackhi EBF 0 ABS 0 - C:\Users\Matias\AppData\Local\Temp\s3ig.obj
+stacklo 8C 0 ABS 0 - C:\Users\Matias\AppData\Local\Temp\s3ig.obj
+_lcd_send_nibble 19D4 0 CODE 0 text16 dist/default/production\laboratorio.production.obj
 __Lintcode 0 0 CODE 0 intcode dist/default/production\laboratorio.production.obj
 _segundo 37 0 COMRAM 1 bssCOMRAM dist/default/production\laboratorio.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production\laboratorio.production.obj
-__end_of_RtccWrOn 1D40 0 CODE 0 text22 dist/default/production\laboratorio.production.obj
+__end_of_RtccWrOn 1D76 0 CODE 0 text22 dist/default/production\laboratorio.production.obj
 __Lirdata 0 0 CODE 0 irdata dist/default/production\laboratorio.production.obj
 RtccReadTime@pTm 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 lcd_setcursor_vb@visible 6 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
@@ -948,14 +953,14 @@ __size_of_Delay1KTCYx 0 0 ABS 0 - dist/default/production\laboratorio.production
 __CFG_DSWDTOSC$INTOSCREF 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _RtccTimeDate 68 0 BANK0 1 bssBANK0 dist/default/production\laboratorio.production.obj
 __Lend_init 0 0 CODE 0 end_init dist/default/production\laboratorio.production.obj
-__end_of_RtccReadDate 191E 0 CODE 0 text25 dist/default/production\laboratorio.production.obj
-__end_of_RtccReadTime 1A82 0 CODE 0 text24 dist/default/production\laboratorio.production.obj
+__end_of_RtccReadDate 1954 0 CODE 0 text25 dist/default/production\laboratorio.production.obj
+__end_of_RtccReadTime 1AB8 0 CODE 0 text24 dist/default/production\laboratorio.production.obj
 _RtccTimeVal 27 0 COMRAM 1 bssCOMRAM dist/default/production\laboratorio.production.obj
 _buffer2 78 0 BANK0 1 bssBANK0 dist/default/production\laboratorio.production.obj
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\laboratorio.production.obj
 RtccWriteDate@wasOn 5 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 lcd_send_nibble@nibble 2 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-end_of_initialization 1C4C 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
+end_of_initialization 1C82 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
 __end_of_LCD_INIT_STRING F0F 0 SMALLCONST 0 smallconst dist/default/production\laboratorio.production.obj
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\laboratorio.production.obj
 __Hintentry 0 0 ABS 0 intentry dist/default/production\laboratorio.production.obj
@@ -970,20 +975,20 @@ __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\laboratorio.production
 __HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\laboratorio.production.obj
 __Lramtop F00 0 RAM 0 ramtop dist/default/production\laboratorio.production.obj
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\laboratorio.production.obj
-__pcinit 1C12 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
-_caratula 153A 0 CODE 0 text2 dist/default/production\laboratorio.production.obj
+__pcinit 1C48 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
+_caratula 164E 0 CODE 0 text2 dist/default/production\laboratorio.production.obj
 _fecha_d 44 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
 _fecha_u 45 0 COMRAM 1 nvCOMRAM dist/default/production\laboratorio.production.obj
-__ptext0 1644 0 CODE 0 text0 dist/default/production\laboratorio.production.obj
-__ptext1 1CF6 0 CODE 0 text1 dist/default/production\laboratorio.production.obj
-__ptext2 153A 0 CODE 0 text2 dist/default/production\laboratorio.production.obj
+__ptext0 142E 0 CODE 0 text0 dist/default/production\laboratorio.production.obj
+__ptext1 1D2C 0 CODE 0 text1 dist/default/production\laboratorio.production.obj
+__ptext2 164E 0 CODE 0 text2 dist/default/production\laboratorio.production.obj
 __ptext3 F3C 0 CODE 0 text3 dist/default/production\laboratorio.production.obj
-__ptext4 1CD4 0 CODE 0 text4 dist/default/production\laboratorio.production.obj
-__ptext5 1C88 0 CODE 0 text5 dist/default/production\laboratorio.production.obj
-__ptext6 1B32 0 CODE 0 text6 dist/default/production\laboratorio.production.obj
-__ptext7 1A82 0 CODE 0 text7 dist/default/production\laboratorio.production.obj
-__ptext8 1ADE 0 CODE 0 text8 dist/default/production\laboratorio.production.obj
-__ptext9 1B7E 0 CODE 0 text9 dist/default/production\laboratorio.production.obj
+__ptext4 1D0A 0 CODE 0 text4 dist/default/production\laboratorio.production.obj
+__ptext5 1CBE 0 CODE 0 text5 dist/default/production\laboratorio.production.obj
+__ptext6 1B68 0 CODE 0 text6 dist/default/production\laboratorio.production.obj
+__ptext7 1AB8 0 CODE 0 text7 dist/default/production\laboratorio.production.obj
+__ptext8 1B14 0 CODE 0 text8 dist/default/production\laboratorio.production.obj
+__ptext9 1BB4 0 CODE 0 text9 dist/default/production\laboratorio.production.obj
 RtccReadTime@rTD0 B 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 RtccReadTime@rTD1 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\laboratorio.production.obj
@@ -1003,30 +1008,30 @@ __Ltext22 0 0 ABS 0 text22 dist/default/production\laboratorio.production.obj
 __Ltext23 0 0 ABS 0 text23 dist/default/production\laboratorio.production.obj
 __Ltext24 0 0 ABS 0 text24 dist/default/production\laboratorio.production.obj
 __Ltext25 0 0 ABS 0 text25 dist/default/production\laboratorio.production.obj
-__ramtop F00 0 RAM 0 ramtop C:\Users\Matias\AppData\Local\Temp\s320.obj
+__ramtop F00 0 RAM 0 ramtop C:\Users\Matias\AppData\Local\Temp\s3ig.obj
 _sprintf F3C 0 CODE 0 text3 dist/default/production\laboratorio.production.obj
 __size_of_lcd_send_byte 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\laboratorio.production.obj
-__end_of_caratula 1644 0 CODE 0 text2 dist/default/production\laboratorio.production.obj
+__end_of_caratula 1758 0 CODE 0 text2 dist/default/production\laboratorio.production.obj
 lcd_init@i 5 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 sprintf@ap 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 sprintf@sp D 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-_isdigit 1CD4 0 CODE 0 text4 dist/default/production\laboratorio.production.obj
+_isdigit 1D0A 0 CODE 0 text4 dist/default/production\laboratorio.production.obj
 __psmallconst F00 0 SMALLCONST 0 smallconst dist/default/production\laboratorio.production.obj
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\laboratorio.production.obj
 ___param_bank 10 0 ABS 0 - dist/default/production\laboratorio.production.obj
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\laboratorio.production.obj
-__end_of__initialization 1C4C 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
+__end_of__initialization 1C82 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
 _LCD_INIT_STRING F0B 0 SMALLCONST 0 smallconst dist/default/production\laboratorio.production.obj
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\laboratorio.production.obj
-__end_of_lcd_setcursor_vb 1D0A 0 CODE 0 text1 dist/default/production\laboratorio.production.obj
+__end_of_lcd_setcursor_vb 1D40 0 CODE 0 text1 dist/default/production\laboratorio.production.obj
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\laboratorio.production.obj
 RtccWriteDate@wasAlrm 6 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 RtccWriteDate@wasWrEn 9 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __size_of_lcd_send_nibble 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
 lcd_putc@c 8 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __size_of_lcd_setcursor_vb 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-__end_of_lcd_send_byte 1C88 0 CODE 0 text15 dist/default/production\laboratorio.production.obj
+__end_of_lcd_send_byte 1CBE 0 CODE 0 text15 dist/default/production\laboratorio.production.obj
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __Hend_init 4 0 CODE 0 end_init dist/default/production\laboratorio.production.obj
 lcd_gotoxy@x 6 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
@@ -1034,13 +1039,13 @@ lcd_gotoxy@y 5 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.produ
 lcd_send_byte@n 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 sprintf@c 23 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 sprintf@f F 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-__end_of_main 1722 0 CODE 0 text0 dist/default/production\laboratorio.production.obj
+__end_of_main 1542 0 CODE 0 text0 dist/default/production\laboratorio.production.obj
 isdigit@c 3 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-__end_of_Setup 1C12 0 CODE 0 text11 dist/default/production\laboratorio.production.obj
+__end_of_Setup 1C48 0 CODE 0 text11 dist/default/production\laboratorio.production.obj
 __end_of_dpowers F0B 0 SMALLCONST 0 smallconst dist/default/production\laboratorio.production.obj
 ?_sprintf D 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 _isdigit$1822 2 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-_Setup 1BCA 0 CODE 0 text11 dist/default/production\laboratorio.production.obj
+_Setup 1C00 0 CODE 0 text11 dist/default/production\laboratorio.production.obj
 _TRISA F92 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _TRISB F93 0 ABS 0 - dist/default/production\laboratorio.production.obj
 _TRISC F94 0 ABS 0 - dist/default/production\laboratorio.production.obj
@@ -1060,8 +1065,8 @@ sprintf@width 21 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.pro
 RtccWriteDate@tempHourWDay C 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 __LbitbssCOMRAM 0 0 ABS 0 bitbssCOMRAM dist/default/production\laboratorio.production.obj
 __CFG_CPUDIV$OSC1 0 0 ABS 0 - dist/default/production\laboratorio.production.obj
-_lcd_comand 1D40 0 CODE 0 text14 dist/default/production\laboratorio.production.obj
-__initialization 1C12 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
+_lcd_comand 1D76 0 CODE 0 text14 dist/default/production\laboratorio.production.obj
+__initialization 1C48 0 CODE 0 cinit dist/default/production\laboratorio.production.obj
 __pbssBANK0 60 0 BANK0 1 bssBANK0 dist/default/production\laboratorio.production.obj
 __pdataCOMRAM 4E 0 COMRAM 1 dataCOMRAM dist/default/production\laboratorio.production.obj
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\laboratorio.production.obj
@@ -1070,7 +1075,7 @@ __Hsmallconst F3C 0 SMALLCONST 0 smallconst dist/default/production\laboratorio.
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\laboratorio.production.obj
 RtccWriteTime@wasAlrm 6 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
 RtccWriteTime@wasWrEn 7 0 COMRAM 1 cstackCOMRAM dist/default/production\laboratorio.production.obj
-_lcd_gotoxy 1CB0 0 CODE 0 text10 dist/default/production\laboratorio.production.obj
+_lcd_gotoxy 1CE6 0 CODE 0 text10 dist/default/production\laboratorio.production.obj
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\laboratorio.production.obj
 __Hintcode 0 0 CODE 0 intcode dist/default/production\laboratorio.production.obj
 # %SPLITSTAB Section
@@ -1097,7 +1102,7 @@ __Hintcode 0 0 CODE 0 intcode dist/default/production\laboratorio.production.obj
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text3 0 F3C F3C E1E 1
+text3 0 F3C F3C E54 1
 cstackCOMRAM 1 1 1 5A 1
 reset_vec 0 0 0 4 1
 bssBANK0 1 60 60 2C 1

@@ -10084,7 +10084,18 @@ else LATBbits.LATB1 = 0;;
 
 if(PORTAbits.RA0 == 0)
 {
-LATBbits.LATB0 = 1;;
+if (x==10){
+dia++;
+if(dia > 31){
+dia = 1;
+}
+Write_RTC();
+_delay((unsigned long)((50)*(8000000/4000.0)));
+}
+
+
+
+
 }
 else LATBbits.LATB0 = 0;;
 

@@ -497,7 +497,7 @@ RTCCPTR_MASK_YEAR 3
 [v main@x x `uc  1 a 1 37 ]
 "105
 [v main@y y `uc  1 a 1 36 ]
-"148
+"159
 } 0
 "210 C:/Archivos de programa/Unimic/unmc_01/sources/unmc_lcd_216.c
 [v _lcd_setcursor_vb lcd_setcursor_vb `(v  1 e 0 0 ]

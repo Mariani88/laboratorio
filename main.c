@@ -137,7 +137,18 @@ while(1)
 
     if(switch2 == 0)
     {
-    LED_3_On;
+        if (x==10){
+            dia++;
+            if(dia > 31){
+                dia = 1;
+            }
+            Write_RTC();
+            __delay_ms(50);
+        }
+        
+        
+        
+        
     }
     else LED_3_Off;
    
