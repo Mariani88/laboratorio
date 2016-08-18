@@ -10045,6 +10045,45 @@ LATBbits.LATB0 = 0;;
 }
 
 # 101
+void setClock(int8 x){
+switch (x) {
+case 10:
+dia++;
+if(dia > 31){
+dia = 1;
+}
+break;
+case 13:
+mes++;
+if(mes > 12){
+mes = 1;
+}
+break;
+case 16:
+anio++;
+break;
+case 2:
+hora++;
+if(hora > 23){
+hora = 0;
+}
+break;
+case 5:
+minuto++;
+if(minuto > 59){
+minuto = 0;
+}
+break;
+default:
+break;
+}
+Write_RTC();
+_delay((unsigned long)((50)*(8000000/4000.0)));
+}
+
+
+
+
 int main(void)
 {
 Setup();
@@ -10080,25 +10119,10 @@ if(y == 2 && x == 9){
 y = 1;
 }
 }
-else LATBbits.LATB1 = 0;;
 
-if(PORTAbits.RA0 == 0)
-{
-if (x==10){
-dia++;
-if(dia > 31){
-dia = 1;
+if(PORTAbits.RA0 == 0){
+setClock(x);
 }
-Write_RTC();
-_delay((unsigned long)((50)*(8000000/4000.0)));
-}
-
-
-
-
-}
-else LATBbits.LATB0 = 0;;
-
 _delay((unsigned long)((98)*(8000000/4000.0)));
 
 }
