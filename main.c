@@ -124,6 +124,42 @@ void evalueFinal(int8 x,int8 *y){
 }
 
 
+void setClock(int8 x){
+    switch (x) {
+        case 10:    
+          dia++;
+          if(dia > 31){
+                dia = 1;
+          }
+          break;
+        case 13:
+          mes++;
+          if(mes > 12){
+            mes = 1;
+          }
+          break;
+        case 16:
+          anio++;
+          break;
+        case 2:    
+          hora++;
+          if(hora > 23){
+             hora = 0;
+          }
+          break;
+        case 5:
+          minuto++;
+            if(minuto > 59){
+                minuto = 0;
+            }
+          break;
+        default:
+          break;
+        }
+        Write_RTC();
+        __delay_ms(50);
+} 
+
 int main(void){
 Setup();
 int8 x = 9;
@@ -149,20 +185,8 @@ while(1){
     }
     else LED_2_Off;
 
-    if(switch2 == 0)
-    {
-        if (x==10){
-            dia++;
-            if(dia > 31){
-                dia = 1;
-            }
-            Write_RTC();
-            __delay_ms(50);
-        }
-        
-        
-        
-        
+    if(switch2 == 0){
+        setClock(x);
     }
     else LED_3_Off;
    
