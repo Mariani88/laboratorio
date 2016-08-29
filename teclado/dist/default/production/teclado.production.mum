@@ -1,0 +1,7 @@
+
+Memory Summary:
+    Program space        used   E8Ah (  3722) of  FFF8h bytes   (  5.7%)
+    Data space           used   186h (   390) of   EC0h bytes   ( 10.3%)
+    Configuration bits   used     4h (     4) of     4h words   (100.0%)
+    Data stack space     used     0h (     0) of   CC0h bytes   (  0.0%)
+

@@ -1,0 +1,27 @@
+___awdiv: CODE, 6148 0 164
+_lcd_comand: CODE, 7240 0 14
+_lcd_putc: CODE, 6716 0 74
+__stringdata: SMALLCONST, 3855 0 34
+_lcd_putrs: CODE, 6634 0 82
+_lcd_send_byte: CODE, 6996 0 50
+_Delay1KTCYx: CODE, 7208 0 16
+_dpowers: SMALLCONST, 3841 0 10
+_main: CODE, 3890 0 782
+_Write_RTC: CODE, 5238 0 328
+_LCD_INIT_STRING: SMALLCONST, 3851 0 4
+_Setup: CODE, 6790 0 72
+__initialization: CODE, 6862 0 58
+___lwdiv: CODE, 6552 0 82
+_lcd_gotoxy: CODE, 7124 0 34
+_lcd_send_nibble: CODE, 6434 0 118
+_isdigit: CODE, 7158 0 32
+_sprintf: CODE, 4672 0 566
+_Delay100TCYx: CODE, 7224 0 16
+___lwmod: CODE, 6930 0 66
+_RtccWrOn: CODE, 7190 0 18
+_RtccWriteDate: CODE, 5566 0 320
+_RtccWriteTime: CODE, 5886 0 262
+___wmul: CODE, 7086 0 38
+_caratula: CODE, 7046 0 40
+_lcd_init: CODE, 6312 0 122
+Total: 3402
